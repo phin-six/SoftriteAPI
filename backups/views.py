@@ -28,6 +28,7 @@ HTTP_STATUS_SERVER_ERROR = 500
 
 logger = logging.getLogger(__name__)
 
+# testing new git origin change (git remote set-url)
 
 def save_chunk_to_temp_file(uploader_id, chunk_index, file_data):
     destination = os.path.join(MEDIA_ROOT, 'uploads')
